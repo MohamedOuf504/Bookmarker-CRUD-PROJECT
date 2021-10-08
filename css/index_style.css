@@ -1,0 +1,149 @@
+body {
+  background-image: url(../image/photo-1481627834876-b7833e8f5570.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fa-bookmark {
+  font-size: 3.21rem;
+}
+@media screen and (max-width: 600px) {
+  .fa-bookmark {
+    font-size: 1.5rem;
+  }
+
+  }
+
+
+.title {
+  font-size: 3rem;
+  color: whitesmoke;
+}
+.form {
+  color: white;
+  border: 1px solid;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.title-icone::after {
+  content: "";
+  animation: typing 3s linear infinite;
+  -webkit-animation: typing 3s linear infinite;
+}
+
+@keyframes typing {
+  0% {
+    content: "|";
+  }
+
+  5% {
+    content: "B|";
+  }
+
+  10% {
+    content: "Bo|";
+  }
+
+  15% {
+    content: "Boo|";
+  }
+
+  20% {
+    content: "Book|";
+  }
+
+  25% {
+    content: "BookM|";
+  }
+
+  30% {
+    content: " BookMa|";
+  }
+
+  35% {
+    content: "BookMar|";
+  }
+
+  40% {
+    content: "BookMark|";
+  }
+
+  45% {
+    content: "BookMarke|";
+  }
+
+  50% {
+    content: "BookMarker|";
+  }
+  55% {
+    content: "BookMarke|";
+  }
+
+  60% {
+    content: "BookMark|";
+  }
+
+  65% {
+    content: "BookMar|";
+  }
+
+  70% {
+    content: "BookMa|";
+  }
+
+  75% {
+    content: "BookM|";
+  }
+
+  80% {
+    content: " Book|";
+  }
+
+  85% {
+    content: "Boo|";
+  }
+
+  90% {
+    content: "Bo|";
+  }
+
+  95% {
+    content: "B|";
+  }
+
+  100% {
+    content: "|";
+  }
+}
+
+.down-icon i {
+  color: white;
+  font-size: 3.5rem !important;
+}
+
+.bookmark-obj {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 20px;
+  padding: 10px;
+}
+
+.id {
+  background-color: whitesmoke;
+  width: 2.5rem;
+  top:50% ;
+  left: 0;
+  
+}
+
+#searchMarker{
+
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: white;
+    padding: 15px;
+}
+#searchMarker::placeholder{
+
+    color:rgba(255, 255, 255, 0.7) 
+}
+
